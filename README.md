@@ -17,3 +17,21 @@ Install via Composer:
 
 composer require abbassmortazavi/inventory-library
 ```
+
+## Sample Code For Use it In Your Project
+```sh
+use InventoryLibrary\Inventory;
+
+require 'vendor/autoload.php';
+$inventory = new Inventory();
+// Add items
+$inventory->addItem('orange', 20);
+$inventory->addItem('peach', 5);
+
+// Remove items
+$inventory->removeItem('orange', 5);
+
+// Get stock
+echo $inventory->getStock('orange'); // Output: 15
+echo $inventory->getStock('peach'); // Output: 5
+```
