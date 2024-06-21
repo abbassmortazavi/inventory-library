@@ -35,3 +35,9 @@ $inventory->removeItem('orange', 5);
 echo $inventory->getStock('orange'); // Output: 15
 echo $inventory->getStock('peach'); // Output: 5
 ```
+
+## Run Unit Tests
+```sh
+run this command in your terminal :
+vendor/bin/phpunit
+```
