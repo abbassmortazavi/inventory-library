@@ -38,6 +38,6 @@ echo $inventory->getStock('peach'); // Output: 5
 
 ## Run Unit Tests
 ```sh
-run this command in your terminal :
+run this command in your command line :
 vendor/bin/phpunit
 ```
